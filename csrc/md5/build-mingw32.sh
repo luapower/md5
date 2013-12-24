@@ -1,3 +1,3 @@
-gcc md5.c -O3 -s -I. -shared -o ../../bin/md5.dll
+gcc md5.c -O3 -s -I. -shared -o ../../bin/mingw32/md5.dll
 
-cd ../.. && bin/luajit md5_test.lua
+#cd ../.. && bin/luajit md5_test.lua
