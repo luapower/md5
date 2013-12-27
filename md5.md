@@ -7,7 +7,7 @@ v1.0 | md5.c 2001, unversioned | LuaJIT 2
 
 ## `local md5 = require'md5'`
 
-A ffi binding of the popular [md5][MD5 implementation] by Alexander Peslyak.
+A ffi binding of the popular [MD5 implementation][md5 lib] by Alexander Peslyak.
 
 --------------------------------------- ---------------------------------------
 `md5.sum(s[, size]) -> s`    \          Compute the MD5 sum of a string or a cdata buffer.
@@ -25,7 +25,8 @@ A ffi binding of the popular [md5][MD5 implementation] by Alexander Peslyak.
 C sources and build scripts included. Binary also included.
 
 ----
-_See also_: [sha2](sha2.html)
+See also: [sha2]
 
 [glue.tohex]: glue.html#tohex
-[md5]:        http://openwall.info/wiki/people/solar/software/public-domain-source-code/md5
+
+[md5 lib]:    http://openwall.info/wiki/people/solar/software/public-domain-source-code/md5
