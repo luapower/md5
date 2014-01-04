@@ -1,6 +1,7 @@
 ---
-project: md5
-tagline: md5 digest
+project:     md5
+tagline:     md5 digest
+category:    Hashing
 ---
 
 v1.0 | md5.c 2001, unversioned | LuaJIT 2
