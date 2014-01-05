@@ -4,8 +4,6 @@ tagline:     md5 digest
 category:    Hashing
 ---
 
-v1.0 | md5.c 2001, unversioned | LuaJIT 2
-
 ## `local md5 = require'md5'`
 
 A ffi binding of the popular [MD5 implementation][md5 lib] by Alexander Peslyak.
