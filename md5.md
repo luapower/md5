@@ -1,6 +1,6 @@
 ---
-project:     md5
-tagline:     md5 digest
+project: md5
+tagline: md5 hashing
 ---
 
 ## `local md5 = require'md5'`
