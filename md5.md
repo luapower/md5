@@ -18,13 +18,7 @@ A ffi binding of the popular [MD5 implementation][md5 lib] by Alexander Peslyak.
 `digest() -> s`
 --------------------------------------- ---------------------------------------
 
-## Building
-
-C sources and build scripts included. Binary also included.
-
-----
 See also: [sha2]
 
 [glue.tohex]: glue.html#tohex
-
 [md5 lib]:    http://openwall.info/wiki/people/solar/software/public-domain-source-code/md5
