@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc md5.c -shared -o ../../bin/mingw32/md5.dll -I.
+P=mingw32 L="-s -static-libgcc" D=md5.dll A=md5.a ./build.sh

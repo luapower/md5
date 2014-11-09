@@ -1,1 +1,1 @@
-gcc -O2 -s -static-libgcc -fPIC md5.c -shared -o ../../bin/linux64/libmd5.so -I.
+P=linux64 C=-fPIC L="-s -static-libgcc" D=libmd5.so A=libmd5.a ./build.sh
