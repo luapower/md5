@@ -7,6 +7,8 @@ tagline: md5 hashing
 
 A ffi binding of the popular [MD5 implementation][md5 lib] by Alexander Peslyak.
 
+[md5 lib]:    http://openwall.info/wiki/people/solar/software/public-domain-source-code/md5
+
 --------------------------------------- ---------------------------------------
 `md5.sum(s[, size]) -> s`    \          Compute the MD5 sum of a string or a cdata buffer.
 `md5.sum(cdata, size) -> s`  \          Returns the binary representation of the hash.
@@ -18,7 +20,4 @@ A ffi binding of the popular [MD5 implementation][md5 lib] by Alexander Peslyak.
 `digest() -> s`
 --------------------------------------- ---------------------------------------
 
-See also: [sha2]
-
 [glue.tohex]: glue.html#tohex
-[md5 lib]:    http://openwall.info/wiki/people/solar/software/public-domain-source-code/md5
