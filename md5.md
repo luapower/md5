@@ -1,5 +1,4 @@
 ---
-project: md5
 tagline: md5 hashing
 ---
 
